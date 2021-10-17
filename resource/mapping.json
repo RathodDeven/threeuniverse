@@ -94,6 +94,24 @@
         },
         "credits": "https://www.turbosquid.com/",
         "url": "https://threeuniverse.github.io/simpleCloud/src/universe_parts/cloud.js"
+      },
+      {
+        "position": {
+          "x": 25000,
+          "z": 25000
+        },
+        "description": "Grass ground with single texture",
+        "url": "https://threeuniverse.github.io/Terrain/src/universe_parts/grassGround.js",
+        "credits": "https://threejs.org/examples/#webgl_animation_cloth",
+        "radius": 14142.13562373095
+      },
+      {
+        "position": {
+          "x": 25000,
+          "z": 25000
+        },
+        "credits": "https://www.turbosquid.com/",
+        "url": "https://threeuniverse.org/src/universe_parts/lonetree.js"
       }
     ]
   }

@@ -22,30 +22,15 @@ defineThreeUniverse(function (THREE,UNIVERSE,SPACE) {
                 objnode.position.y = result[0].point.y;
                 resolve(objnode);
             })
-            
-              
-                
-                
-                
-                
-
-
-            
-     
-            
-            
-
         };
 
 
         var onLoadMtl = function (materials) {
             materials.crossOrigin="anonymous";    
             objLoader.setMaterials(materials);
-            objLoader.load(SPACE.baseUrl+'resource/Tree_obj/Tree.obj', callbackOnLoad);
-
-
+            objLoader.load(SPACE.baseUrl+'resource/Tree_obj/wooden_box.obj', callbackOnLoad);
         };
         mtlLoader.setPath(SPACE.baseUrl+'resource/Tree_obj/')
-        mtlLoader.load('Tree.mtl', onLoadMtl);
+        mtlLoader.load('wooden_box.mtl', onLoadMtl);
     });
 });

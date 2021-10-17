@@ -13,8 +13,7 @@ exports.setLocalPart = function setLocalPart( githubPageUrl) {
 }
 
 exports.appingNewPartViaMarker = function appingNewPartViaMarker(newData) {
-        jsonobject.maping.push(newData)
-    
+    jsonobject.maping.push(newData)
 }
 
 
