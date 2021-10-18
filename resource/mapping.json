@@ -118,8 +118,8 @@
       },
       {
         "position": {
-          "x": 30000,
-          "z": 30000
+          "x": 20000,
+          "z": 20000
         },
         "credits": "https://www.turbosquid.com/",
         "url": "https://rathoddeven.github.io/threeuniverse/src/universe_parts/lonetree.js"
