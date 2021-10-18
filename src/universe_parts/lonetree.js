@@ -28,9 +28,9 @@ defineThreeUniverse(function (THREE,UNIVERSE,SPACE) {
         var onLoadMtl = function (materials) {
             materials.crossOrigin="anonymous";    
             objLoader.setMaterials(materials);
-            objLoader.load(SPACE.baseUrl+'resource/Tree_obj/wooden_box.obj', callbackOnLoad);
+            objLoader.load(SPACE.baseUrl+'resource/Tree_obj/Tree.obj', callbackOnLoad);
         };
         mtlLoader.setPath(SPACE.baseUrl+'resource/Tree_obj/')
-        mtlLoader.load('wooden_box.mtl', onLoadMtl);
+        mtlLoader.load('Tree.mtl', onLoadMtl);
     });
 });

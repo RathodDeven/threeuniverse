@@ -1,3 +1,5 @@
+
+
 {
     "local_part" : "https://threeuniverse.org/",
     "maping": [
@@ -11,14 +13,7 @@
         "credits": "https://threejs.org/examples/#webgl_animation_cloth",
         "radius": 14142.13562373095
       },
-      {
-        "position": {
-          "x": 0,
-          "z": 0
-        },
-        "credits": "https://www.turbosquid.com/",
-        "url": "https://threeuniverse.org/src/universe_parts/lonetree.js"
-      },
+     
       {
         "position": {
           "x": 100,
@@ -112,6 +107,15 @@
         },
         "credits": "https://www.turbosquid.com/",
         "url": "https://threeuniverse.org/src/universe_parts/lonetree.js"
+      },
+      {
+        "position": {
+          "x": 30000,
+          "z": 30000
+        },
+        "credits": "https://www.turbosquid.com/",
+        "url": "https://github.com/RathodDeven/threeuniverse/blob/master/src/universe_parts/lonetree.js"
       }
+
     ]
   }
