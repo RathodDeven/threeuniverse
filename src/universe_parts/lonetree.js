@@ -7,8 +7,7 @@ defineThreeUniverse(function (THREE,UNIVERSE,SPACE) {
         var mtlLoader = new THREE.MTLLoader()
         var callbackOnLoad = function (objnode) {
            
-            objnode.rotateX(- 90 * THREE.Math.DEG2RAD);
-            objnode.scale.set(40, 40, 40);
+            objnode.scale.set(100, 100, 100);
 
             objnode.traverse(object => {
                 if (object.isMesh) {
